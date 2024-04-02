@@ -29,13 +29,16 @@ a, .btn {
 
 /* Desktop nav */
 
+
 nav, .nav-links {
     display: flex;
+    background-color: burlywood;
+    
 }
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 13vh;
 }
 
 .nav-links {
@@ -196,6 +199,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    color: mediumblue;
 }
 
 #social-container {
@@ -268,6 +272,7 @@ section {
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+
 
 .about-details-container {
     justify-content: center;
@@ -418,10 +423,11 @@ article .icon {
 }
 
 footer {
-    height: 26vh;
+    height: 16vh;
     margin: 0 1rem;
 }
 
 footer p {
     text-align: center;
 }
+
