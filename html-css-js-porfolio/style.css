@@ -9,7 +9,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;;
-    overflow-x: hidden;
 }
 
 div {
@@ -39,7 +38,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
+    height: 13vh;
 }
 
 .nav-links {
@@ -288,7 +287,7 @@ section {
     border-radius: 2rem;
 }
 
- .arrow {
+.arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
